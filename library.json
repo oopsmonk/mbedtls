@@ -1,0 +1,19 @@
+{
+    "name": "mbedtls",
+    "version": "2.17.0",
+    "keywords": "crypto, tls",
+    "description": "mbedtls library",
+    "homepage": "https://tls.mbed.org",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oopsmonk/mbedtls.git",
+        "branch": "pio_lib_v2.17"
+    },
+    "frameworks": "mbed",
+    "platforms": "*",
+    "build": {
+        "srcFilter": [
+            "+<library/*.c>"
+        ]
+    }
+}
